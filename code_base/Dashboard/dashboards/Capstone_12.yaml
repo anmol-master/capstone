@@ -1,0 +1,1334 @@
+dashboard_title: Capstone
+description: null
+css: ''
+slug: null
+uuid: aeeb2f9d-adce-47b4-b2a2-a2b2718ae5d5
+position:
+  CHART-BmB8XaoJV32:
+    children: []
+    id: CHART-BmB8XaoJV32
+    meta:
+      chartId: 187
+      height: 89
+      sliceName: Quarterly Sales (By Therapeutic Area)
+      uuid: 1dddf8d7-a324-4d73-8504-b9f3e69d5ea6
+      width: 7
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-e7Og4nQhic2
+    - ROW-jzebSUmkZO
+    type: CHART
+  CHART-explore-181-1:
+    children: []
+    id: CHART-explore-181-1
+    meta:
+      chartId: 181
+      height: 41
+      sliceName: Total Revenue
+      uuid: 76b40324-8130-4d39-8241-d2c6039923f9
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-e7Og4nQhic2
+    - ROW-XKpe6xY7jA
+    type: CHART
+  CHART-explore-183-1:
+    children: []
+    id: CHART-explore-183-1
+    meta:
+      chartId: 183
+      height: 41
+      sliceName: Total Quantity Sold
+      uuid: 42897575-6424-4c54-875c-6fe0358b3025
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-e7Og4nQhic2
+    - ROW-XKpe6xY7jA
+    type: CHART
+  CHART-explore-184-1:
+    children: []
+    id: CHART-explore-184-1
+    meta:
+      chartId: 184
+      height: 41
+      sliceName: Total Items Sold (By Therapeutic Area)
+      uuid: 97b7462d-221e-4b7f-a481-b761def28e42
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-e7Og4nQhic2
+    - ROW-XKpe6xY7jA
+    type: CHART
+  CHART-explore-185-1:
+    children: []
+    id: CHART-explore-185-1
+    meta:
+      chartId: 185
+      height: 69
+      sliceName: Total Revenue (By Therapeutic Area)
+      uuid: cd592251-8b6d-4ad7-9910-6069de375f4d
+      width: 5
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-e7Og4nQhic2
+    - ROW-jzebSUmkZO
+    type: CHART
+  CHART-explore-188-1:
+    children: []
+    id: CHART-explore-188-1
+    meta:
+      chartId: 188
+      height: 50
+      sliceName: Bounce Rate %
+      uuid: dcfd2428-fb94-4589-a9bb-9ddd6d23cb41
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-pxEZP5s-0f
+    - ROW-WUFJ3EKhAB
+    type: CHART
+  CHART-explore-189-1:
+    children: []
+    id: CHART-explore-189-1
+    meta:
+      chartId: 189
+      height: 50
+      sliceName: Bounce Rate per TA
+      uuid: 7ceff8c3-bff7-4655-852a-73b6bcc5c4e1
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-pxEZP5s-0f
+    - ROW-ScITzVm3Y9
+    type: CHART
+  CHART-explore-190-1:
+    children: []
+    id: CHART-explore-190-1
+    meta:
+      chartId: 190
+      height: 50
+      sliceName: Revenue Lost due to Bounce
+      uuid: 86f66068-c3b8-4b57-8f6a-7c229d54b766
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-pxEZP5s-0f
+    - ROW-WUFJ3EKhAB
+    type: CHART
+  CHART-explore-191-1:
+    children: []
+    id: CHART-explore-191-1
+    meta:
+      chartId: 191
+      height: 50
+      sliceName: "High-value SKU Bounce Impact (\u20B9)"
+      uuid: c3eaaaa2-a915-43f6-bed8-c38ece3a5ec8
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-pxEZP5s-0f
+    - ROW-0GS7qBUaQ3
+    type: CHART
+  CHART-explore-192-1:
+    children: []
+    id: CHART-explore-192-1
+    meta:
+      chartId: 192
+      height: 50
+      sliceName: Formulary Compliance (%)
+      uuid: 495d34b9-5bfa-45d7-8939-e917aff31b6c
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-pxEZP5s-0f
+    - ROW-WUFJ3EKhAB
+    type: CHART
+  CHART-explore-193-1:
+    children: []
+    id: CHART-explore-193-1
+    meta:
+      chartId: 193
+      height: 50
+      sliceName: Substitution Rate (%)
+      uuid: 594dc85d-f4d6-4be7-b551-cb66f0c01088
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-pxEZP5s-0f
+    - ROW-0GS7qBUaQ3
+    type: CHART
+  CHART-explore-194-1:
+    children: []
+    id: CHART-explore-194-1
+    meta:
+      chartId: 194
+      height: 50
+      sliceName: Repeat Bounce Patients (%)
+      uuid: 7aff68d9-1f43-44f9-a877-599a65ad4dd1
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-pxEZP5s-0f
+    - ROW-ScITzVm3Y9
+    type: CHART
+  CHART-explore-195-1:
+    children: []
+    id: CHART-explore-195-1
+    meta:
+      chartId: 195
+      height: 50
+      sliceName: Consumption per Patient
+      uuid: d5a9d313-6190-418f-bde5-81c39fbe61fd
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-pxEZP5s-0f
+    - ROW-0GS7qBUaQ3
+    type: CHART
+  CHART-explore-196-1:
+    children: []
+    id: CHART-explore-196-1
+    meta:
+      chartId: 196
+      height: 50
+      sliceName: Bounce Reason
+      uuid: ba7a7c72-599a-4b2c-ab54-3d6c0b8348ce
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-pxEZP5s-0f
+    - ROW-ScITzVm3Y9
+    type: CHART
+  CHART-explore-197-1:
+    children: []
+    id: CHART-explore-197-1
+    meta:
+      chartId: 197
+      height: 50
+      sliceName: Critical SKU (As of that date)
+      uuid: 3ed25200-aa21-4513-8658-110feba444da
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-CVgHcuZEdI
+    - ROW-TUMfcQfcMB
+    type: CHART
+  CHART-explore-198-1:
+    children: []
+    id: CHART-explore-198-1
+    meta:
+      chartId: 198
+      height: 50
+      sliceName: Demand Supply
+      uuid: 82ace758-3eb8-40e1-aabe-696da03c86c6
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-CVgHcuZEdI
+    - ROW-PhROUfeWEs
+    type: CHART
+  CHART-explore-199-1:
+    children: []
+    id: CHART-explore-199-1
+    meta:
+      chartId: 199
+      height: 50
+      sliceName: Total Demand
+      uuid: 81c6705c-6ff3-4292-8b5b-a3c4d4c17715
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-CVgHcuZEdI
+    - ROW-PhROUfeWEs
+    type: CHART
+  CHART-explore-200-1:
+    children: []
+    id: CHART-explore-200-1
+    meta:
+      chartId: 200
+      height: 50
+      sliceName: Average Demand
+      uuid: 940d8123-e2f8-4760-be45-1dab0907c8d1
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-uWJh_6m2tdx
+    type: CHART
+  CHART-explore-201-1:
+    children: []
+    id: CHART-explore-201-1
+    meta:
+      chartId: 201
+      height: 50
+      sliceName: Forecasted Demand
+      uuid: 218b1656-c79b-4e60-ab3d-0a7bf4995c36
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-uWJh_6m2tdx
+    type: CHART
+  CHART-explore-202-1:
+    children: []
+    id: CHART-explore-202-1
+    meta:
+      chartId: 202
+      height: 50
+      sliceName: Forecasted Demand (Next Month)
+      uuid: bb00e344-aa2f-49f2-877e-8aeafceb68a9
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-uWJh_6m2tdx
+    type: CHART
+  CHART-explore-203-1:
+    children: []
+    id: CHART-explore-203-1
+    meta:
+      chartId: 203
+      height: 50
+      sliceName: Average Monthly Demand
+      uuid: 103fc05a-8565-44ac-be73-88ec197017eb
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-B3oiBNP84da
+    type: CHART
+  CHART-explore-204-1:
+    children: []
+    id: CHART-explore-204-1
+    meta:
+      chartId: 204
+      height: 50
+      sliceName: Predicted Demand
+      uuid: 0ead46a5-c5bb-41be-94ee-d903d638a822
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-B3oiBNP84da
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - TABS-YScAMiCZQSq
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Capstone
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-0GS7qBUaQ3:
+    children:
+    - CHART-explore-191-1
+    - CHART-explore-193-1
+    - CHART-explore-195-1
+    id: ROW-0GS7qBUaQ3
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-pxEZP5s-0f
+    type: ROW
+  ROW-Mq1gWwqXqp:
+    children:
+    - CHART-explore-204-1
+    id: ROW-Mq1gWwqXqp
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-CVgHcuZEdI
+    type: ROW
+  ROW-NjKEAkgbfj:
+    children:
+    - CHART-explore-201-1
+    - CHART-explore-200-1
+    - CHART-explore-203-1
+    - CHART-explore-202-1
+    id: ROW-NjKEAkgbfj
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-CVgHcuZEdI
+    type: ROW
+  ROW-PhROUfeWEs:
+    children:
+    - CHART-explore-198-1
+    - CHART-explore-199-1
+    id: ROW-PhROUfeWEs
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-CVgHcuZEdI
+    type: ROW
+  ROW-ScITzVm3Y9:
+    children:
+    - CHART-explore-194-1
+    - CHART-explore-189-1
+    - CHART-explore-196-1
+    id: ROW-ScITzVm3Y9
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-pxEZP5s-0f
+    type: ROW
+  ROW-TUMfcQfcMB:
+    children:
+    - CHART-explore-197-1
+    id: ROW-TUMfcQfcMB
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-CVgHcuZEdI
+    type: ROW
+  ROW-WUFJ3EKhAB:
+    children:
+    - CHART-explore-188-1
+    - CHART-explore-192-1
+    - CHART-explore-190-1
+    id: ROW-WUFJ3EKhAB
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-pxEZP5s-0f
+    type: ROW
+  ROW-XKpe6xY7jA:
+    children:
+    - CHART-explore-183-1
+    - CHART-explore-181-1
+    - CHART-explore-184-1
+    id: ROW-XKpe6xY7jA
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-e7Og4nQhic2
+    type: ROW
+  ROW-jzebSUmkZO:
+    children:
+    - CHART-explore-185-1
+    - CHART-BmB8XaoJV32
+    id: ROW-jzebSUmkZO
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    - TAB-e7Og4nQhic2
+    type: ROW
+  TAB-CVgHcuZEdI:
+    children:
+    - ROW-PhROUfeWEs
+    - ROW-TUMfcQfcMB
+    - ROW-NjKEAkgbfj
+    - ROW-Mq1gWwqXqp
+    id: TAB-CVgHcuZEdI
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Inventory
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    type: TAB
+  TAB-e7Og4nQhic2:
+    children:
+    - ROW-XKpe6xY7jA
+    - ROW-jzebSUmkZO
+    id: TAB-e7Og4nQhic2
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Sales Overview
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    type: TAB
+  TAB-pxEZP5s-0f:
+    children:
+    - ROW-WUFJ3EKhAB
+    - ROW-0GS7qBUaQ3
+    - ROW-ScITzVm3Y9
+    id: TAB-pxEZP5s-0f
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Pharmacy KPI
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-YScAMiCZQSq
+    type: TAB
+  TABS-YScAMiCZQSq:
+    children:
+    - TAB-e7Og4nQhic2
+    - TAB-CVgHcuZEdI
+    - TAB-pxEZP5s-0f
+    id: TABS-YScAMiCZQSq
+    meta: {}
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: TABS
+metadata:
+  chart_configuration:
+    '184':
+      id: 184
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 181
+        - 183
+        - 185
+        - 187
+        - 188
+        - 189
+        - 190
+        - 191
+        - 192
+        - 193
+        - 194
+        - 195
+        - 196
+        - 197
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+    '185':
+      id: 185
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 181
+        - 183
+        - 184
+        - 187
+        - 188
+        - 189
+        - 190
+        - 191
+        - 192
+        - 193
+        - 194
+        - 195
+        - 196
+        - 197
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+    '189':
+      id: 189
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 181
+        - 183
+        - 184
+        - 185
+        - 187
+        - 188
+        - 190
+        - 191
+        - 192
+        - 193
+        - 194
+        - 195
+        - 196
+        - 197
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+    '196':
+      id: 196
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 181
+        - 183
+        - 184
+        - 185
+        - 187
+        - 188
+        - 189
+        - 190
+        - 191
+        - 192
+        - 193
+        - 194
+        - 195
+        - 197
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+    '197':
+      id: 197
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 181
+        - 183
+        - 184
+        - 185
+        - 187
+        - 188
+        - 189
+        - 190
+        - 191
+        - 192
+        - 193
+        - 194
+        - 195
+        - 196
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+    '200':
+      id: 200
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 181
+        - 183
+        - 184
+        - 185
+        - 187
+        - 188
+        - 189
+        - 190
+        - 191
+        - 192
+        - 193
+        - 194
+        - 195
+        - 196
+        - 197
+        - 198
+        - 199
+        - 201
+        - 202
+        - 203
+        - 204
+    '202':
+      id: 202
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 181
+        - 183
+        - 184
+        - 185
+        - 187
+        - 188
+        - 189
+        - 190
+        - 191
+        - 192
+        - 193
+        - 194
+        - 195
+        - 196
+        - 197
+        - 198
+        - 199
+        - 200
+        - 201
+        - 203
+        - 204
+    '203':
+      id: 203
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 181
+        - 183
+        - 184
+        - 185
+        - 187
+        - 188
+        - 189
+        - 190
+        - 191
+        - 192
+        - 193
+        - 194
+        - 195
+        - 196
+        - 197
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
+        - 204
+    '204':
+      id: 204
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 181
+        - 183
+        - 184
+        - 185
+        - 187
+        - 188
+        - 189
+        - 190
+        - 191
+        - 192
+        - 193
+        - 194
+        - 195
+        - 196
+        - 197
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
+        - 203
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 181
+    - 183
+    - 184
+    - 185
+    - 187
+    - 188
+    - 189
+    - 190
+    - 191
+    - 192
+    - 193
+    - 194
+    - 195
+    - 196
+    - 197
+    - 198
+    - 199
+    - 200
+    - 201
+    - 202
+    - 203
+    - 204
+  color_scheme: bnbColors
+  refresh_frequency: 0
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+  native_filter_configuration:
+  - id: NATIVE_FILTER-9VQb8odSuf
+    controlValues:
+      sortAscending: true
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Transaction Type
+    filterType: filter_select
+    targets:
+    - column:
+        name: transaction_type
+      datasetUuid: 7fdffd65-2b06-43a8-9062-93d8c991367f
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 181
+    - 183
+    - 184
+    - 185
+    - 187
+    - 188
+    - 189
+    - 190
+    - 191
+    - 192
+    - 193
+    - 194
+    - 195
+    - 196
+    - 197
+    - 198
+    - 199
+    - 200
+    - 201
+    - 202
+    - 203
+    - 204
+    tabsInScope:
+    - TAB-CVgHcuZEdI
+    - TAB-e7Og4nQhic2
+    - TAB-pxEZP5s-0f
+  - id: NATIVE_FILTER-_s_rC1rK7T
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+      sortAscending: false
+    name: Transaction Date
+    filterType: filter_select
+    targets:
+    - column:
+        name: transaction_date
+      datasetUuid: 7fdffd65-2b06-43a8-9062-93d8c991367f
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 181
+    - 183
+    - 184
+    - 185
+    - 187
+    tabsInScope:
+    - TAB-e7Og4nQhic2
+  - id: NATIVE_FILTER-LmMwCCLLg2
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Formulary Adherent
+    filterType: filter_select
+    targets:
+    - column:
+        name: formulary_adherent
+      datasetUuid: 7fdffd65-2b06-43a8-9062-93d8c991367f
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 181
+    - 183
+    - 184
+    - 185
+    - 187
+    tabsInScope:
+    - TAB-e7Og4nQhic2
+  - id: NATIVE_FILTER-I40U-2GTRP
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Bounced
+    filterType: filter_select
+    targets:
+    - column:
+        name: bounced
+      datasetUuid: 7fdffd65-2b06-43a8-9062-93d8c991367f
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 181
+    - 183
+    - 184
+    - 185
+    - 187
+    tabsInScope:
+    - TAB-e7Og4nQhic2
+  - id: NATIVE_FILTER-MbydqNNtgg
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Bounce Reason
+    filterType: filter_select
+    targets:
+    - column:
+        name: bounce_reason
+      datasetUuid: 7fdffd65-2b06-43a8-9062-93d8c991367f
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-I40U-2GTRP
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 181
+    - 183
+    - 184
+    - 185
+    - 187
+    tabsInScope:
+    - TAB-e7Og4nQhic2
+  - id: NATIVE_FILTER-JuCEDgHf4X
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Urgency Level
+    filterType: filter_select
+    targets:
+    - column:
+        name: urgency_level
+      datasetUuid: 7fdffd65-2b06-43a8-9062-93d8c991367f
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 181
+    - 183
+    - 184
+    - 185
+    - 187
+    tabsInScope:
+    - TAB-e7Og4nQhic2
+  - id: NATIVE_FILTER-cx48lLnY7L
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Hospital Name
+    filterType: filter_select
+    targets:
+    - column:
+        name: hospital_name
+      datasetUuid: 7fdffd65-2b06-43a8-9062-93d8c991367f
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 181
+    - 183
+    - 184
+    - 185
+    - 187
+    tabsInScope:
+    - TAB-e7Og4nQhic2
+  - id: NATIVE_FILTER-dq47mnze6d
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Department Name
+    filterType: filter_select
+    targets:
+    - column:
+        name: dept_name
+      datasetUuid: 7fdffd65-2b06-43a8-9062-93d8c991367f
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 181
+    - 183
+    - 184
+    - 185
+    - 187
+    tabsInScope:
+    - TAB-e7Og4nQhic2
+  - id: NATIVE_FILTER-awy52XGHhs
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Patient Type
+    filterType: filter_select
+    targets:
+    - column:
+        name: patient_type
+      datasetUuid: 7fdffd65-2b06-43a8-9062-93d8c991367f
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 181
+    - 183
+    - 184
+    - 185
+    - 187
+    tabsInScope:
+    - TAB-e7Og4nQhic2
+  - id: NATIVE_FILTER-JWJnW9Ada7
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: SKU
+    filterType: filter_select
+    targets:
+    - column:
+        name: sku_name
+      datasetUuid: 7fdffd65-2b06-43a8-9062-93d8c991367f
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 181
+    - 183
+    - 184
+    - 185
+    - 187
+    tabsInScope:
+    - TAB-e7Og4nQhic2
+  - id: NATIVE_FILTER-czZJS49sPd
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: category
+    filterType: filter_select
+    targets:
+    - column:
+        name: category
+      datasetUuid: 7fdffd65-2b06-43a8-9062-93d8c991367f
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 181
+    - 183
+    - 184
+    - 185
+    - 187
+    tabsInScope:
+    - TAB-e7Og4nQhic2
+  - id: NATIVE_FILTER-r9Hf4ncqbC
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Sub category
+    filterType: filter_select
+    targets:
+    - column:
+        name: sub_category
+      datasetUuid: 7fdffd65-2b06-43a8-9062-93d8c991367f
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 181
+    - 183
+    - 184
+    - 185
+    - 187
+    tabsInScope:
+    - TAB-e7Og4nQhic2
+  - id: NATIVE_FILTER-a7k80RyPpT
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: SKU ID
+    filterType: filter_select
+    targets:
+    - column:
+        name: sku_id
+      datasetUuid: 7fdffd65-2b06-43a8-9062-93d8c991367f
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 181
+    - 183
+    - 184
+    - 185
+    - 187
+    - 188
+    - 189
+    - 190
+    - 191
+    - 192
+    - 193
+    - 194
+    - 195
+    - 196
+    - 199
+    - 200
+    - 203
+    tabsInScope:
+    - TAB-CVgHcuZEdI
+    - TAB-e7Og4nQhic2
+    - TAB-pxEZP5s-0f
+  - id: NATIVE_FILTER-h_zinjtrNX
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Model
+    filterType: filter_select
+    targets:
+    - column:
+        name: model
+      datasetUuid: a768b7d0-ebeb-48d0-8b0f-0bbab9f98761
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded:
+      - 181
+      - 183
+      - 184
+      - 185
+      - 187
+      - 188
+      - 189
+      - 190
+      - 191
+      - 192
+      - 193
+      - 194
+      - 195
+      - 196
+      - 197
+      - 198
+      - 199
+      - 200
+      - 203
+    type: NATIVE_FILTER
+    description: ''
+  shared_label_colors: {}
+  color_scheme_domain:
+  - '#ff5a5f'
+  - '#7b0051'
+  - '#007A87'
+  - '#00d1c1'
+  - '#8ce071'
+  - '#ffb400'
+  - '#b4a76c'
+  - '#ff8083'
+  - '#cc0086'
+  - '#00a1b3'
+  - '#00ffeb'
+  - '#bbedab'
+  - '#ffd266'
+  - '#cbc29a'
+  - '#ff3339'
+  - '#ff1ab1'
+  - '#005c66'
+  - '#00b3a5'
+  - '#55d12e'
+  - '#b37e00'
+  - '#988b4e'
+version: 1.0.0

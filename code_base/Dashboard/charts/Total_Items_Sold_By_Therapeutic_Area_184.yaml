@@ -1,0 +1,75 @@
+slice_name: Total Items Sold (By Therapeutic Area)
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 27__table
+  viz_type: table
+  slice_id: 184
+  query_mode: aggregate
+  groupby:
+  - sub_category
+  time_grain_sqla: P1D
+  temporal_columns_lookup:
+    transaction_date: true
+    admission_date: true
+    discharge_date: true
+  metrics:
+  - aggregate: SUM
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: quantity_consumed
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 917
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    label: SUM(quantity_consumed)
+    optionName: metric_iv3p5rr7ynp_7xrup3ha05r
+    sqlExpression: null
+  all_columns: []
+  percent_metrics: []
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: transaction_date
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_bxw0hnppw9d_7jsanhqh8hv
+  order_by_cols: []
+  row_limit: 1000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  show_cell_bars: true
+  color_pn: true
+  extra_form_data: {}
+  dashboards:
+  - 12
+query_context: '{"datasource":{"id":27,"type":"table"},"force":false,"queries":[{"filters":[{"col":"transaction_date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["sub_category"],"metrics":[{"aggregate":"SUM","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"quantity_consumed","description":null,"expression":null,"filterable":true,"groupby":true,"id":917,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"SUM(quantity_consumed)","optionName":"metric_iv3p5rr7ynp_7xrup3ha05r","sqlExpression":null}],"orderby":[[{"aggregate":"SUM","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"quantity_consumed","description":null,"expression":null,"filterable":true,"groupby":true,"id":917,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"SUM(quantity_consumed)","optionName":"metric_iv3p5rr7ynp_7xrup3ha05r","sqlExpression":null},false]],"annotation_layers":[],"row_limit":1000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"27__table","viz_type":"table","slice_id":184,"query_mode":"aggregate","groupby":["sub_category"],"time_grain_sqla":"P1D","temporal_columns_lookup":{"transaction_date":true,"admission_date":true,"discharge_date":true},"metrics":[{"aggregate":"SUM","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"quantity_consumed","description":null,"expression":null,"filterable":true,"groupby":true,"id":917,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"SUM(quantity_consumed)","optionName":"metric_iv3p5rr7ynp_7xrup3ha05r","sqlExpression":null}],"all_columns":[],"percent_metrics":[],"adhoc_filters":[{"expressionType":"SIMPLE","subject":"transaction_date","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","clause":"WHERE","sqlExpression":null,"isExtra":false,"isNew":false,"datasourceWarning":false,"filterOptionName":"filter_bxw0hnppw9d_7jsanhqh8hv"}],"order_by_cols":[],"row_limit":1000,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","show_cell_bars":true,"color_pn":true,"extra_form_data":{},"dashboards":[12],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 97b7462d-221e-4b7f-a481-b761def28e42
+version: 1.0.0
+dataset_uuid: 7fdffd65-2b06-43a8-9062-93d8c991367f

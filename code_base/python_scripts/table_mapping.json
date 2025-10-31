@@ -1,0 +1,81 @@
+{
+  "Inventory.xlsx": {
+    "Sheet1": {
+      "if_exists": "append",
+      "incremental": true,
+      "pk": ["inventory_id"]
+    }
+  },
+
+  "Supply_Chain.xlsx": {
+    "Purchase_Orders": {
+      "if_exists": "append",
+      "incremental": true,
+      "pk": ["po_id"]
+    },
+    "Deliveries": {
+      "if_exists": "append",
+      "incremental": true,
+      "pk": ["delivery_id"]
+    }
+  },
+
+  "Hospital_Dataset.xlsx": {
+    "Hospital": {
+      "if_exists": "append",
+      "incremental": true,
+      "pk": ["hospital_id"]
+    },
+    "Departments": {
+      "if_exists": "append",
+      "incremental": true,
+      "pk": ["dept_id"]
+    },
+    "Physicians": {
+      "if_exists": "append",
+      "incremental": true,
+      "pk": ["physician_id"]
+    },
+    "SKUs": {
+      "if_exists": "append",
+      "incremental": true,
+      "pk": ["sku_id"]
+    },
+    "Vendors": {
+      "if_exists": "append",
+      "incremental": true,
+      "pk": ["vendor_id"]
+    }
+  },
+
+  "Patients.xlsx": {
+    "Sheet1": {
+      "if_exists": "append",
+      "incremental": true,
+      "pk": ["patient_id"]
+    }
+  },
+
+  "Transactions_2023.xlsx": {
+    "Sheet1": {
+      "if_exists": "append",
+      "incremental": true,
+      "pk": ["transaction_id"]
+    }
+  },
+
+  "Transactions_2024.xlsx": {
+    "Sheet1": {
+      "if_exists": "append",
+      "incremental": true,
+      "pk": ["transaction_id"]
+    }
+  },
+
+  "sku_forecasts.xlsx": {
+    "sku_forecasts": {
+      "if_exists": "replace",
+      "incremental": false
+    }
+  }
+}
