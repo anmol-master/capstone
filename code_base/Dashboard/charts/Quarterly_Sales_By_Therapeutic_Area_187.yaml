@@ -1,0 +1,123 @@
+slice_name: Quarterly Sales (By Therapeutic Area)
+description: null
+certified_by: null
+certification_details: null
+viz_type: bar
+params:
+  datasource: 27__table
+  viz_type: bar
+  slice_id: 187
+  granularity_sqla: transaction_date
+  time_grain_sqla: P3M
+  time_range: No filter
+  metrics:
+  - aggregate: SUM
+    column:
+      advanced_data_type: null
+      changed_on: '2025-10-19T06:26:02.415674'
+      column_name: total_cost
+      created_on: '2025-10-19T06:26:02.415673'
+      description: null
+      expression: null
+      extra: null
+      filterable: true
+      groupby: true
+      id: 919
+      is_active: true
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      type_generic: 0
+      uuid: 9a241e93-0b59-48e0-8b4a-3d7bc9711b0e
+      verbose_name: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    label: SUM(total_cost)
+    optionName: metric_ekdxw9dyr4a_2680ec6zwqh
+    sqlExpression: null
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: transaction_date
+    operator: TEMPORAL_RANGE
+    operatorId: TEMPORAL_RANGE
+    comparator: 'DATEADD(DATETIME("2025-10-19T00:00:00"), -2, year) : 2025-10-19T00:00:00'
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_55hp65v7ia5_o6awgg098xc
+  groupby:
+  - sub_category
+  timeseries_limit_metric: []
+  order_desc: true
+  row_limit: 10000
+  color_scheme: supersetColors
+  show_brush: auto
+  show_legend: true
+  rich_tooltip: true
+  bar_stacked: true
+  line_interpolation: linear
+  show_controls: false
+  bottom_margin: auto
+  x_axis_label: Quarter starting
+  x_ticks_layout: "45\xB0"
+  x_axis_format: '%m/%d/%Y'
+  y_axis_label: Revenue
+  left_margin: auto
+  y_axis_format: null
+  y_axis_bounds:
+  - null
+  - null
+  rolling_type: null
+  time_compare: null
+  comparison_type: null
+  annotation_layers: []
+  extra_form_data: {}
+  dashboards:
+  - 12
+query_context: "{\"datasource\":{\"id\":27,\"type\":\"table\"},\"force\":false,\"\
+  queries\":[{\"time_range\":\"No filter\",\"granularity\":\"transaction_date\",\"\
+  filters\":[{\"col\":\"transaction_date\",\"op\":\"TEMPORAL_RANGE\",\"val\":\"DATEADD(DATETIME(\\\
+  \"2025-10-19T00:00:00\\\"), -2, year) : 2025-10-19T00:00:00\"}],\"extras\":{\"time_grain_sqla\"\
+  :\"P3M\",\"having\":\"\",\"where\":\"\"},\"applied_time_extras\":{},\"columns\"\
+  :[\"sub_category\"],\"metrics\":[{\"aggregate\":\"SUM\",\"column\":{\"advanced_data_type\"\
+  :null,\"changed_on\":\"2025-10-19T06:26:02.415674\",\"column_name\":\"total_cost\"\
+  ,\"created_on\":\"2025-10-19T06:26:02.415673\",\"description\":null,\"expression\"\
+  :null,\"extra\":null,\"filterable\":true,\"groupby\":true,\"id\":919,\"is_active\"\
+  :true,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE PRECISION\"\
+  ,\"type_generic\":0,\"uuid\":\"9a241e93-0b59-48e0-8b4a-3d7bc9711b0e\",\"verbose_name\"\
+  :null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\",\"hasCustomLabel\"\
+  :false,\"label\":\"SUM(total_cost)\",\"optionName\":\"metric_ekdxw9dyr4a_2680ec6zwqh\"\
+  ,\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":10000,\"series_limit\"\
+  :0,\"series_limit_metric\":[],\"order_desc\":true,\"url_params\":{},\"custom_params\"\
+  :{},\"custom_form_data\":{}}],\"form_data\":{\"datasource\":\"27__table\",\"viz_type\"\
+  :\"bar\",\"slice_id\":187,\"granularity_sqla\":\"transaction_date\",\"time_grain_sqla\"\
+  :\"P3M\",\"time_range\":\"No filter\",\"metrics\":[{\"aggregate\":\"SUM\",\"column\"\
+  :{\"advanced_data_type\":null,\"changed_on\":\"2025-10-19T06:26:02.415674\",\"column_name\"\
+  :\"total_cost\",\"created_on\":\"2025-10-19T06:26:02.415673\",\"description\":null,\"\
+  expression\":null,\"extra\":null,\"filterable\":true,\"groupby\":true,\"id\":919,\"\
+  is_active\":true,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\
+  \ PRECISION\",\"type_generic\":0,\"uuid\":\"9a241e93-0b59-48e0-8b4a-3d7bc9711b0e\"\
+  ,\"verbose_name\":null},\"datasourceWarning\":false,\"expressionType\":\"SIMPLE\"\
+  ,\"hasCustomLabel\":false,\"label\":\"SUM(total_cost)\",\"optionName\":\"metric_ekdxw9dyr4a_2680ec6zwqh\"\
+  ,\"sqlExpression\":null}],\"adhoc_filters\":[{\"expressionType\":\"SIMPLE\",\"subject\"\
+  :\"transaction_date\",\"operator\":\"TEMPORAL_RANGE\",\"operatorId\":\"TEMPORAL_RANGE\"\
+  ,\"comparator\":\"DATEADD(DATETIME(\\\"2025-10-19T00:00:00\\\"), -2, year) : 2025-10-19T00:00:00\"\
+  ,\"clause\":\"WHERE\",\"sqlExpression\":null,\"isExtra\":false,\"isNew\":false,\"\
+  datasourceWarning\":false,\"filterOptionName\":\"filter_55hp65v7ia5_o6awgg098xc\"\
+  }],\"groupby\":[\"sub_category\"],\"timeseries_limit_metric\":[],\"order_desc\"\
+  :true,\"row_limit\":10000,\"color_scheme\":\"supersetColors\",\"show_brush\":\"\
+  auto\",\"show_legend\":true,\"rich_tooltip\":true,\"bar_stacked\":true,\"line_interpolation\"\
+  :\"linear\",\"show_controls\":false,\"bottom_margin\":\"auto\",\"x_axis_label\"\
+  :\"Quarter starting\",\"x_ticks_layout\":\"45\xB0\",\"x_axis_format\":\"%m/%d/%Y\"\
+  ,\"y_axis_label\":\"Revenue\",\"left_margin\":\"auto\",\"y_axis_format\":null,\"\
+  y_axis_bounds\":[null,null],\"rolling_type\":null,\"time_compare\":null,\"comparison_type\"\
+  :null,\"annotation_layers\":[],\"extra_form_data\":{},\"dashboards\":[12],\"force\"\
+  :false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"\
+  json\",\"result_type\":\"full\"}"
+cache_timeout: null
+uuid: 1dddf8d7-a324-4d73-8504-b9f3e69d5ea6
+version: 1.0.0
+dataset_uuid: 7fdffd65-2b06-43a8-9062-93d8c991367f

@@ -1,0 +1,53 @@
+slice_name: Bounce Rate %
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number
+params:
+  datasource: 27__table
+  viz_type: big_number
+  slice_id: 183
+  x_axis: transaction_date
+  time_grain_sqla: P1D
+  metric:
+    expressionType: SQL
+    sqlExpression: ' SUM(CASE WHEN bounced is True THEN 1 ELSE 0 END)*1.0000/COUNT(transaction_id)'
+    column: null
+    aggregate: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: ' SUM(CASE WHEN bounced is True THEN 1 ELSE 0 END)*1.0000/COUNT(transaction_id)'
+    optionName: metric_kb9i9tqvhm_iq4k82l6oko
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: transaction_date
+  show_trend_line: true
+  start_y_axis_at_zero: true
+  color_picker:
+    a: 1
+    b: 135
+    g: 122
+    r: 0
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  y_axis_format: .2%
+  time_format: smart_date
+  rolling_type: None
+  extra_form_data: {}
+  dashboards:
+  - 12
+query_context: '{"datasource":{"id":27,"type":"table"},"force":false,"queries":[{"filters":[{"col":"transaction_date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"P1D","columnType":"BASE_AXIS","sqlExpression":"transaction_date","label":"transaction_date","expressionType":"SQL"}],"metrics":[{"expressionType":"SQL","sqlExpression":"
+  SUM(CASE WHEN bounced is True THEN 1 ELSE 0 END)*1.0000/COUNT(transaction_id)","column":null,"aggregate":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"
+  SUM(CASE WHEN bounced is True THEN 1 ELSE 0 END)*1.0000/COUNT(transaction_id)","optionName":"metric_kb9i9tqvhm_iq4k82l6oko"}],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"pivot","options":{"index":["transaction_date"],"columns":[],"aggregates":{"
+  SUM(CASE WHEN bounced is True THEN 1 ELSE 0 END)*1.0000/COUNT(transaction_id)":{"operator":"mean"}},"drop_missing_columns":true}},{"operation":"flatten"}]}],"form_data":{"datasource":"27__table","viz_type":"big_number","slice_id":183,"x_axis":"transaction_date","time_grain_sqla":"P1D","metric":{"expressionType":"SQL","sqlExpression":"
+  SUM(CASE WHEN bounced is True THEN 1 ELSE 0 END)*1.0000/COUNT(transaction_id)","column":null,"aggregate":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"
+  SUM(CASE WHEN bounced is True THEN 1 ELSE 0 END)*1.0000/COUNT(transaction_id)","optionName":"metric_kb9i9tqvhm_iq4k82l6oko"},"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"transaction_date"}],"show_trend_line":true,"start_y_axis_at_zero":true,"color_picker":{"a":1,"b":135,"g":122,"r":0},"header_font_size":0.4,"subheader_font_size":0.15,"y_axis_format":".2%","time_format":"smart_date","rolling_type":"None","extra_form_data":{},"dashboards":[12],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: dcfd2428-fb94-4589-a9bb-9ddd6d23cb41
+version: 1.0.0
+dataset_uuid: 7fdffd65-2b06-43a8-9062-93d8c991367f

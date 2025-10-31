@@ -1,0 +1,63 @@
+slice_name: Bounce Rate per TA
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 27__table
+  viz_type: table
+  slice_id: 184
+  query_mode: aggregate
+  groupby:
+  - sub_category
+  time_grain_sqla: P1D
+  temporal_columns_lookup:
+    transaction_date: true
+    admission_date: true
+    discharge_date: true
+  metrics:
+  - expressionType: SQL
+    sqlExpression: ' SUM(CASE WHEN bounced is True THEN 1 ELSE 0 END)*100.00/COUNT(transaction_id)'
+    column: null
+    aggregate: null
+    datasourceWarning: false
+    hasCustomLabel: true
+    label: Bounce Rate
+    optionName: metric_iv3p5rr7ynp_7xrup3ha05r
+  all_columns: []
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_bxw0hnppw9d_7jsanhqh8hv
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: transaction_date
+  order_by_cols: []
+  row_limit: 1000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  show_cell_bars: true
+  color_pn: true
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 12
+query_context: '{"datasource":{"id":27,"type":"table"},"force":false,"queries":[{"filters":[{"col":"transaction_date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["sub_category"],"metrics":[{"expressionType":"SQL","sqlExpression":"
+  SUM(CASE WHEN bounced is True THEN 1 ELSE 0 END)*100.00/COUNT(transaction_id)","column":null,"aggregate":null,"datasourceWarning":false,"hasCustomLabel":true,"label":"Bounce
+  Rate","optionName":"metric_iv3p5rr7ynp_7xrup3ha05r"}],"orderby":[[{"expressionType":"SQL","sqlExpression":"
+  SUM(CASE WHEN bounced is True THEN 1 ELSE 0 END)*100.00/COUNT(transaction_id)","column":null,"aggregate":null,"datasourceWarning":false,"hasCustomLabel":true,"label":"Bounce
+  Rate","optionName":"metric_iv3p5rr7ynp_7xrup3ha05r"},false]],"annotation_layers":[],"row_limit":1000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"27__table","viz_type":"table","slice_id":184,"query_mode":"aggregate","groupby":["sub_category"],"time_grain_sqla":"P1D","temporal_columns_lookup":{"transaction_date":true,"admission_date":true,"discharge_date":true},"metrics":[{"expressionType":"SQL","sqlExpression":"
+  SUM(CASE WHEN bounced is True THEN 1 ELSE 0 END)*100.00/COUNT(transaction_id)","column":null,"aggregate":null,"datasourceWarning":false,"hasCustomLabel":true,"label":"Bounce
+  Rate","optionName":"metric_iv3p5rr7ynp_7xrup3ha05r"}],"all_columns":[],"percent_metrics":[],"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_bxw0hnppw9d_7jsanhqh8hv","isExtra":false,"isNew":false,"operator":"TEMPORAL_RANGE","sqlExpression":null,"subject":"transaction_date"}],"order_by_cols":[],"row_limit":1000,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","show_cell_bars":true,"color_pn":true,"conditional_formatting":[],"extra_form_data":{},"dashboards":[12],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 7ceff8c3-bff7-4655-852a-73b6bcc5c4e1
+version: 1.0.0
+dataset_uuid: 7fdffd65-2b06-43a8-9062-93d8c991367f
